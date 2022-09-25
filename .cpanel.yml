@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/techtip2/public_html/
+    - export DEPLOYPATH=/home/techtip2/public_html/subdomains/testshare
     - /bin/cp * $DEPLOYPATH
