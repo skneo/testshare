@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/techtip2/public_html/subdomains/share
-    - /bin/cp * $DEPLOYPATH
+    - /bin/rsync -av --exclude='password.php' * $DEPLOYPATH
